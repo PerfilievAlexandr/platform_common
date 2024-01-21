@@ -2,13 +2,13 @@ package pg
 
 import (
 	"context"
+	"github.com/PerfilievAlexandr/platform_common/pkg/db"
+	"github.com/PerfilievAlexandr/platform_common/pkg/db/transaction"
 	"github.com/georgysavva/scany/pgxscan"
 	"github.com/jackc/pgconn"
 	"github.com/jackc/pgx/v4"
 	"github.com/jackc/pgx/v4/pgxpool"
 	"github.com/pkg/errors"
-	"platform_common/pkg/db"
-	"platform_common/pkg/db/transaction"
 )
 
 type pg struct {

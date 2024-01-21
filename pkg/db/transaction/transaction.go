@@ -2,9 +2,9 @@ package transaction
 
 import (
 	"context"
+	"github.com/PerfilievAlexandr/platform_common/pkg/db"
 	"github.com/jackc/pgx/v4"
 	"github.com/pkg/errors"
-	"platform_common/pkg/db"
 )
 
 type key string

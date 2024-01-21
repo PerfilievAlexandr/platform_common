@@ -1,4 +1,4 @@
-module platform_common
+module github.com/PerfilievAlexandr/platform_common
 
 go 1.22rc1
 
